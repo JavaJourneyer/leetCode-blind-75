@@ -65,6 +65,9 @@ public class LongestIncreasingSubsequence {
         return ans;
     }
 
+    /**
+    * O(nlogn Time complexity with the use of binary search
+    */
     private Integer lengthOfLISWithBinarySearch(int[] nums){
         int ans = 0;
         int n = nums.length;
